@@ -1,0 +1,6 @@
+**/signing-private/
+**/secret-key.asc
+**/passphrase.txt
+**/private-keys-v1.d/
+**/*.rev
+.env*

@@ -1,0 +1,3 @@
+# Add this source and its public key through OneKVM source management.
+# Primary fingerprint: 7F3D21B869A478AFA7992C2B352A75F8531979C0
+src/gz nodebaby-independent https://prophetmikup.github.io/onekvm-nodebaby-feed/aarch64_cortex-a53

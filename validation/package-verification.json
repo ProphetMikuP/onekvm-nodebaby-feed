@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "files": 16,
+  "architecture": "aarch64_cortex-a53",
+  "sha256": "1f77cc6563c5f317ba8230ee11ccdf1bddf6526434df9a317d0ed28ad285484b",
+  "checks": [
+    "ar/gzip/control",
+    "no package scripts",
+    "private payload paths",
+    "manifest/command modes",
+    "disabled defaults",
+    "AArch64/static controller",
+    "vendor hashes/dependencies",
+    "replacement scripts"
+  ],
+  "device_install_tested": false
+}

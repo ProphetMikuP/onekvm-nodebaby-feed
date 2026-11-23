@@ -1,0 +1,15 @@
+Package: onekvm-extension-nodebaby
+Version: 0.1.0-r1
+Architecture: aarch64_cortex-a53
+Section: onekvm/extensions
+Priority: optional
+Maintainer: Local NodeBaby extension build
+License: MIT & Proprietary
+X-OneKVM-Extension-Version: 0.1.0
+Depends: onekvm-extension-host, onekvm-kernel-module-tun, musl, libgcc1
+Installed-Size: 18308541
+Description: Experimental independent NodeBaby extension (disabled by default)
+Filename: onekvm-extension-nodebaby_0.1.0-r1_aarch64_cortex-a53.ipk
+Size: 13134420
+SHA256sum: 1f77cc6563c5f317ba8230ee11ccdf1bddf6526434df9a317d0ed28ad285484b
+

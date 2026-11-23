@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OneKVM 节点小宝软件源</title>
+<style>body{max-width:850px;margin:48px auto;padding:0 22px;font:16px/1.75 system-ui;color:#20303c;background:#f7f9fb}main{background:white;padding:28px;border:1px solid #dce4e8;border-radius:14px}h1{font-size:28px}pre{padding:14px;background:#edf4f6;white-space:pre-wrap;overflow-wrap:anywhere}a{color:#066e78}.notice{padding:14px;border-left:4px solid #c78b14;background:#fff8e8}code{overflow-wrap:anywhere}</style>
+<main><h1>OneKVM 节点小宝独立软件源</h1><p>版本 0.1.0-r1 · 官方客户端 ARM64 musl 4.3.5-731</p>
+<p class="notice">非官方实验扩展，尚未完成真实设备验收。默认关闭客户端，安装时请取消“安装后启用”。业务在线状态仍为未确认。</p>
+<h2>添加软件源</h2><pre>src/gz nodebaby-independent https://prophetmikup.github.io/onekvm-nodebaby-feed/aarch64_cortex-a53</pre><p>通过 OneKVM 的软件源管理添加地址，再单独导入以下公钥：</p>
+<p><a href="aarch64_cortex-a53/nodebaby-feed-public.asc">下载 GPG 公钥</a></p><pre>7F3D21B869A478AFA7992C2B352A75F8531979C0</pre>
+<h2>下载</h2><ul><li><a href="aarch64_cortex-a53/onekvm-extension-nodebaby_0.1.0-r1_aarch64_cortex-a53.ipk">IPK 安装包</a> · <a href="aarch64_cortex-a53/onekvm-extension-nodebaby_0.1.0-r1_aarch64_cortex-a53.ipk.asc">安装包签名</a></li>
+<li><a href="source/onekvm-extension-nodebaby-0.1.0-r1-source.zip">完整扩展源码</a></li><li><a href="aarch64_cortex-a53/Packages">软件源索引</a> · <a href="aarch64_cortex-a53/Packages.asc">索引签名</a></li>
+<li><a href="validation/TEST-RESULTS.json">本地验证记录</a></li></ul><p>IPK SHA256：</p><pre>1f77cc6563c5f317ba8230ee11ccdf1bddf6526434df9a317d0ed28ad285484b</pre>
+<p>保留本地管理通道。签名验证和本地测试不等同于真实设备安装、组网、路由或 Tailscale 共存验收。</p>
+<p><a href="https://github.com/ProphetMikuP/onekvm-nodebaby-feed">GitHub 仓库与说明</a> · <a href="THIRD_PARTY_NOTICES.txt">第三方权利说明</a></p></main></html>

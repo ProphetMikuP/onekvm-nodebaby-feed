@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "fingerprint": "7F3D21B869A478AFA7992C2B352A75F8531979C0",
+  "index_signature_valid": true,
+  "gzip_matches_signed_index": true,
+  "package_hash_valid": true,
+  "package_signature_valid": true,
+  "tampered_index_rejected": true,
+  "tampered_package_detected": true,
+  "missing_key_rejected": true,
+  "private_material_absent": true,
+  "device_tested": false,
+  "published": false
+}

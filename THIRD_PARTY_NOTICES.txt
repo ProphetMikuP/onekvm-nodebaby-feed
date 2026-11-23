@@ -1,0 +1,17 @@
+The extension controller, UI, replacement service scripts, build tools, and
+documentation are original MIT-licensed code. No Tailscale source is copied.
+
+The four NodeBaby/owjdxb executable files and .version metadata are prebuilt
+official client components from:
+https://cdn.ionewu.com/upgrade/jdxb/owjdxb_linux_muslarm64_4.3.5-731.tgz
+SHA256: 16749ee14a6b4e4a7f09a01b4b4955bb05c89b099ad369cc0067fc3e1d82cd3a
+
+They retain the vendor's original rights and terms; the MIT license does not
+apply to those binaries. The downloaded archive contains no corresponding
+source or redistribution license. This build is supplied for the requesting
+user's evaluation. Public redistribution requires checking the vendor's terms.
+The source archive includes all extension source, not the closed-source
+vendor client's unavailable source code.
+
+musl, libgcc1 and the matching OneKVM TUN module remain platform dependencies.
+This IPK neither includes nor overwrites those system components.
